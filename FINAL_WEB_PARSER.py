@@ -38,7 +38,7 @@ def save_to_csv(articles, csv_file_path):
 
 def main():
     source_urls = input("Enter the URLs of the news sources (comma-separated, e.g., 'https://www.example1.com,https://www.example2.com'): ").split(',')
-    folder_path = '/Users/meetsmacbook/Desktop/Code/TY CCNLP Project'
+    folder_path = '/Desktop/Code/TY CCNLP Project'
     csv_file_path = os.path.join(folder_path, "trial_news.csv")
 
     articles = get_news_articles(source_urls)
